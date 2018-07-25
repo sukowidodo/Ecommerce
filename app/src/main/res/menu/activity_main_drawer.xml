@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<group android:checkableBehavior="single">-->
+    <item android:title="Category">
+        <menu>
+            <item
+                android:id="@+id/nav_1"
+                android:icon="@drawable/ic_radio"
+                android:title="Electronic" />
+            <item
+                android:id="@+id/nav_2"
+                android:icon="@drawable/ic_smartphone_black_24dp"
+                android:title="HP/pda" />
+            <item
+                android:id="@+id/nav_3"
+                android:icon="@drawable/ic_headset"
+                android:title="MP3 Player" />
+            <item
+                android:id="@+id/nav_4"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Kamera" />
+            <item
+                android:id="@+id/nav_5"
+                android:icon="@drawable/ic_desktop_windows_black_24dp"
+                android:title="MOnitor" />
+        </menu>
+    </item>
+   <!-- </group>-->
+
+    <item android:title="User Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/ic_person"
+                android:title="User" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="Logout" />
+        </menu>
+
+    </item>
+
+</menu>
